@@ -343,8 +343,16 @@ main{
 .main__experience{
     background-color: var(--fourth-color);
     padding: 90px 0 50px 0;
+    
+   
 }
 
+.experience__container{
+    
+    display: flex;
+    flex-direction: column;
+   
+}
 
 
 .experience__title{
@@ -361,7 +369,7 @@ main{
 .experience__all{
     border-bottom: 1px solid white;
     display: flex;
-    gap: 4em;
+    gap: 3em;
     padding: 20px;
     color: var(--font-color);
 }
@@ -430,7 +438,15 @@ main{
   }
 
   @media (min-width:600px) {
-       .container__card{
+      
+    .main__experience{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container__card{
            display: flex;
            flex-direction: row;
            flex-wrap: wrap;
@@ -441,18 +457,19 @@ main{
            
        }
 
-       .experience__container{
+       
+
+      /* .experience__container{
 
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-
-    
-    }
+       
+    }*/
 
    
-
+    
 
        
   }
