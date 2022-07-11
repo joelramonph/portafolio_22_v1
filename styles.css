@@ -65,7 +65,7 @@ h2{
     font-size: 2rem;
     font-weight: 200;
     font-style: italic;
-    color: var(--primary-color);
+    color: var(--font-color);
     margin-top: 1em;
 }
 /* ****Components**** */
@@ -340,6 +340,8 @@ main{
     padding: 90px 0 50px 0;
 }
 
+
+
 .experience__title{
     color: var(--font-color);
     font-size: 1.7rem;
@@ -434,6 +436,16 @@ main{
            
            
        }
+
+       .experience__container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    
+    }
 
        
   }
