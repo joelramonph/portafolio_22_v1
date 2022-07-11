@@ -214,6 +214,9 @@ span{
         cursor: pointer;
         
     }
+
+    
+
     
 }
 
@@ -275,8 +278,10 @@ main{
 .about__description{
     color: var(--font-color);
     line-height: 1.5em;
-    margin: 1.5em 0;
+    margin: 1.5em 20px;
+    padding: 20px;
     text-align: center;
+    font-size: 1.5em;
 
 }
 
@@ -446,6 +451,9 @@ main{
 
     
     }
+
+   
+
 
        
   }
