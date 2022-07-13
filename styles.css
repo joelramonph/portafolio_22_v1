@@ -260,12 +260,14 @@ span{
 
 main{
     background-color: var(--fourth-color);
-   
+    
    
 }
 .main__about{
     padding: 90px 0 50px 0;
     background-color: var(--fourth-color);
+    max-width: 1024px;
+    margin: 0 auto;
 }
 .about__title{
     color: var(--font-color);
